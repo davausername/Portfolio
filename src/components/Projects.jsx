@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import chatroomIMG from '../assets/img/chatroom-app.jpg';
 import portfolioIMG from '../assets/img/portfolio.jpg';
+import movieSearcherIMG from '../assets/img/movie-searcher-react.jpg';
 
 
 function Projects(){
@@ -52,7 +53,7 @@ const projects = [
     id: 3,
     title: "Movie App Searcher",
     desc: "Simple movie app searcher project from an api where users can search for movies.",
-    img: "/img2.jpg"
+    img: movieSearcherIMG
   }
 ];
 
