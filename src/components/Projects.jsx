@@ -78,7 +78,6 @@ function ProjectCards(){
   };
 
   return (
-    /* 1. OUTER ANCHOR: Locks down the exact dimensions of your card so your UI never shifts */
     <div className="relative w-full max-w-[34.707rem] mx-auto" style={{ height: "14.25rem" }}>
         
       <div 
@@ -90,7 +89,7 @@ function ProjectCards(){
         }}
       >
         
-        {/* 3. SLIDING TRACK */}
+        {/* SLIDING TRACK */}
         <div 
           className="flex w-full transition-transform duration-500 ease-in-out"
           style={{ 
